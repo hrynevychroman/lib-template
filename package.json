@@ -35,7 +35,7 @@
     "rollup:full": "rollup --config rollup-full.config.ts --configPlugin @rollup/plugin-typescript",
     "rollup:core": "rollup --config rollup-core.config.ts --configPlugin @rollup/plugin-typescript",
     "lint": "eslint .",
-    "prepublishOnly": "nr lib:build",
+    "prepublishOnly": "nr build",
     "release": "bumpp && npm publish",
     "test": "vitest",
     "coverage": "vitest run --coverage",
